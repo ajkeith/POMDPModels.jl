@@ -62,6 +62,10 @@ export
     AlwaysFeed,
     FeedWhenCrying
 
+include("CryingBabiesRobust.jl")
+export
+    mytest
+
 include("MountainCar.jl")
 export
     MountainCar,
